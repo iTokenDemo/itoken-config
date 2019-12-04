@@ -6,14 +6,14 @@ spring:
       client:
         url: http://192.168.229.137:8084
   zipkin:
-    base-url: http://92.168.229.137:9411
+    base-url: http://192.168.229.137:9411
 
 server:
   port: 8761
 
 eureka:
   instance:
-    hostname: host
+    hostname: 192.168.229.137
   client:
     registerWithEureka: true
     fetchRegistry: true
