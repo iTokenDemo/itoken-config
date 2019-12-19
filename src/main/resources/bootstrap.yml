@@ -12,8 +12,8 @@ spring:
         git:
           uri: https://github.com/iTokenDemo/itoken-config.git
           search-paths: respo
-          username: zhanghaluo55
-          password: 360489022asdqwe
+          username: 
+          password: 
   zipkin:
     base-url: http://localhost:9411
 
